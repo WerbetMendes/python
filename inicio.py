@@ -1,0 +1,6 @@
+nome = input("Digite seu nome: ")
+print("Olá, {}! Bem-vindo ao Python!".format(nome))
+idade = int(input("Digite sua idade: "))
+salario = float(input("Digite seu salário: "))
+vencimento = input("Digite sua data de vencimento: ")
+print("Você tem {} anos e ganha R${:.2f} por mês. Seu vencimento é dia {} ".format(idade, salario, vencimento))
